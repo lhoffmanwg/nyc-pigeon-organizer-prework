@@ -9,7 +9,7 @@ def nyc_pigeon_organizer(data)
       #  if new_hash == {}
       #    new_hash[name_from_ary][:color] = detail_ary.push(attribute_detail)
       #  end
-          new_hash[name_from_ary]=detail_key
+          new_hash[name_from_ary]=[detail_key]
         binding.pry
     end
     detail_ary.push(attribute_detail.to_s) 
