@@ -7,7 +7,7 @@ def nyc_pigeon_organizer(data)
       name.each do |name_from_ary|
         if (new_hash[name_from_ary] == nil)
           new_hash[name_from_ary] = {}
-      #  end
+        end
      #   binding.pry
      #   if (new_hash[name_from_ary][detail_key] == nil)
      #     binding.pry
