@@ -6,11 +6,12 @@ def nyc_pigeon_organizer(data)
   data.each do |detail_key, detail_hash|
     detail_hash.each do |attribute_detail, name|
       name.each do |name_from_ary|
-      #  if new_hash == {}
+       if new_hash == {}
       #    new_hash[name_from_ary][:color] = detail_ary.push(attribute_detail)
       #  end
-          new_hash[name_from_ary]=[detail_key][attribute_detail]
+          new_hash[name_from_ary]=[detail_key]
         binding.pry
+      end
     end
     detail_ary.push(attribute_detail.to_s) 
   
