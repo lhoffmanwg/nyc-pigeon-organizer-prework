@@ -11,8 +11,8 @@ def nyc_pigeon_organizer(data)
         if (new_hash[name_from_ary][detail_key] == nil)
      #     binding.pry
           new_hash[name_from_ary][detail_key] = [attribute_detail.to_s]
-     #   else
-     #     new_hash[name_from_ary][detail_key] = new_hash[name_from_ary][detail_key].push(attribute_detail.to_s
+        else
+          new_hash[name_from_ary][detail_key] = new_hash[name_from_ary][detail_key].push(attribute_detail.to_s)
         end
         binding.pry
       end
