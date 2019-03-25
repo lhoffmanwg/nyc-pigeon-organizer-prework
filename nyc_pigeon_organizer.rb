@@ -13,7 +13,6 @@ def nyc_pigeon_organizer(data)
         else
           new_hash[name_from_ary][detail_key] = new_hash[name_from_ary][detail_key].push(attribute_detail.to_s)
         end
-        binding.pry
       end
     end
   end  
