@@ -2,10 +2,9 @@ require 'pry'
 
 def nyc_pigeon_organizer(data)
   new_hash = {}
-  binding.pry
   data.each do |detail_key, detail_hash|
     detail_hash.each do |attribute_detail, name|
-   #  name.each do |name_from_ary|
+      name.each do |name_from_ary|
    #     binding.pry
      #   if (new_hash[name_from_ary] == nil)
     #      new_hash[name_from_ary] = {}
@@ -17,8 +16,8 @@ def nyc_pigeon_organizer(data)
      #   else
      #     new_hash[name_from_ary][detail_key] = new_hash[name_from_ary][detail_key].push(attribute_detail.to_s
      #   end
-       # binding.pry
-      #end
+        binding.pry
+      end
     end
   end  
   return new_hash
